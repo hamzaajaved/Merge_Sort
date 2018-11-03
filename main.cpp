@@ -9,9 +9,6 @@ int main(int argc, char const *argv[])
 {
   
   int Array[] = {2,4,1,6,8,5,3,7};
-  int left[] = {1,2,4,6};
-  int right[] = {3,5,7,8};
-
   int size = (sizeof(Array) / sizeof(Array[0]));
   printArray(Array,size);
 
